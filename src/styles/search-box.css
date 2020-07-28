@@ -1,0 +1,19 @@
+.searchBox {
+    background: white;
+    width: 300px;
+    display: flex;
+}
+.searchBox > input[type=text] {
+    flex-grow: 1;
+    border: 1px solid gray;
+    height: 2rem;
+    border-radius: 5px;
+    outline: none;
+    background: url('../assets/icons/search.svg') no-repeat scroll 7px 7px;
+    padding-left: 30px;
+}
+.searchBox button {
+    border: none;
+    margin-right: 8px;
+    align-self: center;
+}

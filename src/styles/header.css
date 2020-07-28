@@ -1,0 +1,38 @@
+.StickyHeader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  transition: top 0.25s ease-out;
+  z-index: 100;
+}
+
+.bar {
+  height: 70px;
+  display: flex;
+  align-items: stretch;
+  padding: 0 20px;
+}
+.bar > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+}
+.bar > *:first-child {
+  flex: none;
+  width: 85%;
+  justify-content: flex-start;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.bar > *:last-child {
+  flex: none;
+  width: 10%;
+  justify-content: flex-end;
+  margin-left: 15px;
+  margin-top: 1.2rem;
+}

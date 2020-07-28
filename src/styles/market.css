@@ -1,0 +1,101 @@
+.Markets {
+    margin: 1rem 4rem;
+}
+.Markets >.header {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.Markets >.list {
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
+    grid-gap: 40px;
+    margin-bottom: 1rem;
+}
+.Markets >.detail {
+    display: grid;
+    margin-bottom: 1rem;
+    height: 200px;
+    width: 490px;
+    background: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    -webkit-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.34);
+    box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.34);
+}
+.Markets >.detail .content {
+    padding: 1rem 3rem;
+}
+.Markets >.detail .content .detail-header {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.Markets >.detail .content .detail-pair {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-gap: 40px;
+    border-bottom: 1px solid lightgray;
+    margin-top: 1rem;
+}
+.Markets >.detail .content .detail-ticker {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    grid-gap: 20px;
+    margin-top: 1rem;
+}
+.Markets >.detail .content .detail-pair div{
+    height: 4rem;
+    width: 9rem;
+}
+.Markets >.detail .content .detail-pair div span.detail{
+    display: block;
+    font-weight: bold;
+    color: #124D81;
+    font-size: x-large;
+}
+.Markets >.detail .content .detail-ticker div span.price{
+    display: block;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.Markets >.detail .content .detail-ticker div span.high{
+    color: green;
+}
+.Markets >.detail .content .detail-ticker div span.low{
+    color: red;
+}
+.Markets >.detail .content div span.footer{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.Markets .list a {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    -webkit-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.34);
+    box-shadow: 0px 0px 41px -1px rgba(0,0,0,0.34);
+}
+
+.Markets .list a span {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.Markets .list a .label {
+    display: block;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    
+}
+.Markets .list a .price {
+    color: #124D81;
+}

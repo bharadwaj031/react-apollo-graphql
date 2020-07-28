@@ -1,0 +1,34 @@
+.home .header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.home .header h4 {
+    flex: 1;
+}
+.home .header .searchBox {
+    margin-bottom: 15px;
+}
+.home .content {
+    padding-left: 0;
+    padding-right: 0;
+}
+.home .content .container {
+    width: 768px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home .paginator {
+    text-align: right;
+    margin: 2rem;
+}
+.home .paginator .page{
+    padding-right: 1rem;
+}
+@media (min-width: 1024px) {
+    .content .container {
+        width: 1024px;
+   }
+}
+
